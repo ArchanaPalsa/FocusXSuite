@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.focus.listeners.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.focus.testcases.URLBrowserTest"/>
+      <class name="com.focus.testcases.UserRestrictionsTest"/>
+      <class name="com.focus.testcases.FocusInventoryReportsTest"/>
+      <class name="com.focus.testcases.FocusFinancialsReportTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.focus.testcases.URLBrowserTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="generateReports"/>
+          <include name="intialiseReports"/>
+          <include name="openBrowser"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.URLBrowserTest -->
+      <class name="com.focus.testcases.UserRestrictionsTest">
+        <methods>
+          <include name="checkRestoreCompany"/>
+          <include name="checkWarehouseMasterWhetherShowingOnlyRestrictedWarehouseInList"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkLogin"/>
+          <include name="checkAccountMasterWhetherShowingOnlyRestrictedAccountsInList"/>
+          <include name="checkPurchaseVoucherHomePageMastersList"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkItemMasterWhetherShowingOnlyRestrictedItemsInList"/>
+        </methods>
+      </class> <!-- com.focus.testcases.UserRestrictionsTest -->
+      <class name="com.focus.testcases.FocusFinancialsReportTest">
+        <methods>
+          <include name="checkBalanceSheetReport"/>
+          <include name="checkProfitAndLoassReport"/>
+          <include name="checkBankBookAccountReport"/>
+          <include name="checkPeakAndLowBlanceAmount"/>
+          <include name="checkVendorStatementsReport"/>
+          <include name="checkVendorOverDueSummaryReport"/>
+          <include name="checkVendorBillWiseSummaryReport"/>
+          <include name="checkCustomerOverDueSummaryReport"/>
+          <include name="checkVendorSummaryAgeingByDueDateReport"/>
+          <include name="checkCustomerListingOfOutstandingBillsReport"/>
+          <include name="checkCustomerAgeingDetailByDueDate"/>
+          <include name="checkFundFlowReport"/>
+          <include name="checkJournalEntryRegister"/>
+          <include name="checkReciptsRegister"/>
+          <include name="checkTradingAccountReport"/>
+          <include name="checkCustomerAgeingDetailAnalysis"/>
+          <include name="checkFilterOptionInLedger"/>
+          <include name="checkTrailBalanceReport"/>
+          <include name="checkOpeningBalanceRegister"/>
+          <include name="checkEntryJournalRegister"/>
+          <include name="checkPettyCashBookReport"/>
+          <include name="checkCashBookReport"/>
+          <include name="checkVendorAgeingDetailByDueDateReport"/>
+          <include name="checkAccountQueryReport"/>
+          <include name="checkEntryJournalDetailReport"/>
+          <include name="checkPurchasesGroupedByItem"/>
+          <include name="checkCustomerDueDateAnalysis"/>
+          <include name="checkVendorListingOfOutStandingBills"/>
+          <include name="checkMasterInfoOfAccountReport"/>
+          <include name="checkVendorDueDateAnalysisReport"/>
+          <include name="checkVendorOverDueAnalysisReport"/>
+          <include name="checkLedgerReport"/>
+          <include name="checkVendorAgeingSummaryAnalysisReport"/>
+          <include name="checkPaymentsRegister"/>
+          <include name="checkTrandingAndProfitAndLoss"/>
+          <include name="checkSchedulesReports"/>
+          <include name="checkLedgerDetailReport"/>
+          <include name="checkDayBookReport"/>
+          <include name="checkLoginWithRERInFA"/>
+          <include name="checkComparativeAnalysisReport"/>
+          <include name="checkInterestCalculationReport"/>
+          <include name="checkPrintOptionInLedgerAndValidatePDF"/>
+          <include name="checkCashFlowReport"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkVendorAgeingDetailsAnalysis"/>
+          <include name="checkSubLedgerReport"/>
+          <include name="checkCustomerStatementsReport"/>
+          <include name="checkCustomerOverDueAnalysis"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.FocusFinancialsReportTest -->
+      <class name="com.focus.testcases.FocusInventoryReportsTest">
+        <methods>
+          <include name="checkStockValuationReportByInventoryByProduct"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkTransactionTypeWiseStockReport"/>
+          <include name="checkStockMovementReport"/>
+          <include name="checkPrintOptionInStockStatements"/>
+          <include name="checkFilterInStockLedger"/>
+          <include name="checkVirtualStockAnalysisReport"/>
+          <include name="checkStockAgeingAnalysisByRMAReport"/>
+          <include name="checkStockValuationReportByProductByInventoryTag"/>
+          <include name="checkGeneralLedgerandInventoryMismatchReport"/>
+          <include name="checkOpeningStockRegisterReport"/>
+          <include name="checkLoginWithRERInFA"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkStockValuationByFATagReport"/>
+        </methods>
+      </class> <!-- com.focus.testcases.FocusInventoryReportsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
