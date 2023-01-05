@@ -13918,6 +13918,12 @@ public class VoucherPrintOptionsPage extends BaseEngine
 
 	@FindBy(xpath="//*[@id='btnPrint']")
 	private static WebElement footerPrintBtn;
+	
+	
+	@FindBy(xpath="//*[@id='id_transaction_voucherprint']/div[2]/div/div[3]/div/input[1]")
+	private static WebElement footerPDFBtn;
+	
+	
 
 	@FindBy(xpath="//*[@id='id_transaction_voucherprint']/div[2]/div/div[3]/div/input[4]")
 	private static WebElement CloseBtnInPrint;
@@ -18781,8 +18787,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 
 		Thread.sleep(2000);
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -19507,8 +19513,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 
 		Thread.sleep(2000);
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -21006,8 +21012,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 
 		Thread.sleep(2000);*/
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -21261,8 +21267,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 
 		Thread.sleep(2000);
 */
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -21515,8 +21521,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 */
 		Thread.sleep(2000);
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -22098,8 +22104,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 
 		Thread.sleep(2000);*/
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -22346,8 +22352,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 
 		Thread.sleep(2000);*/
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -22939,8 +22945,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 
 		Thread.sleep(2000);
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -23187,8 +23193,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 */
 		Thread.sleep(2000);
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -23876,8 +23882,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 
 		Thread.sleep(2000);
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -24783,8 +24789,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 */
 		Thread.sleep(2000);
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -25026,8 +25032,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 
 		Thread.sleep(2000);
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -26277,8 +26283,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 */
 		Thread.sleep(2000);
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -26518,8 +26524,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 
 		Thread.sleep(2000);
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -27517,8 +27523,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 */
 		Thread.sleep(2000);
 
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 
 		Thread.sleep(5000);
 
@@ -38475,8 +38481,8 @@ public class VoucherPrintOptionsPage extends BaseEngine
 			
 			Thread.sleep(2000);
 		
-		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPrintBtn));
-		footerPrintBtn.click();
+		getFluentWebDriverWait().until(ExpectedConditions.elementToBeClickable(footerPDFBtn));
+		footerPDFBtn.click();
 		
 		Thread.sleep(9000);
 		 
